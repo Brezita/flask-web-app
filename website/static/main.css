@@ -113,3 +113,7 @@ p {
   text-decoration: none;
   color: #27B6BF;
 }
+
+.form-check-label {
+  padding-left: 5px;
+}
