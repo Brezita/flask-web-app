@@ -6,5 +6,8 @@
 {% endblock heading1%}
 
 {% block container_box %}
-  <p>Does this work</p>
+  {% for item in playlist.tracks %}
+    {{ item.title }}: {{ item.url }}<br>
+  {% endfor %}
+  <a href="/spotify_login">Click here to log in to Spotify!</a>
 {% endblock container_box %}
